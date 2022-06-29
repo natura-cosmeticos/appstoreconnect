@@ -1,4 +1,4 @@
-import jwt from 'jsonwebtoken'
+import * as jwt from 'jsonwebtoken'
 
 const jwtOptions = (iss: string, kid: string) => ({
     algorithm: 'ES256',
